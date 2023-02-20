@@ -119,3 +119,36 @@ h2 {
 #pricing{
   padding: 7% 15%;
 }
+
+#cta{
+  min-height: 400px;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15% 3%;
+}
+
+#cta h3{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+#cta button{
+  margin: 40px 10px;
+}
+/* footer */
+#footer{
+  text-align: center;
+  min-height: 150px;
+  padding: 5% 15% 3%;
+}
+
+#footer div i{
+  padding: 10px;
+  cursor: pointer;
+}
+#footer div i:hover{
+  color: #ff4c68;
+}
+#footer p{
+  font-size: small;
+}
