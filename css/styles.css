@@ -7,16 +7,19 @@ font-family: 'Ubuntu', sans-serif;
 body {
   font-family: "Montserrat", sans-serif;
 }
-.padding{
-  padding: 7% 15%;
-}
 h1, h2 {
   font-weight: bold;
+}
+p {
+  color: #8f8f8f;
 }
 .container-fluid {
   padding: 3% 15%;
 }
-.center-text, .ft-items, #testimonials, #press, #cta, #footer{
+.padding{
+  padding: 7% 15%;
+}
+.ft-items, #testimonials, #press, #cta, #footer{
   text-align: center;
 }
 .color-section{
@@ -47,7 +50,6 @@ nav{
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .iphone {
   transform: rotate(20deg);
   width: 60%;
@@ -62,11 +64,6 @@ nav{
 .ft-items {
   padding: 30px;
 }
-
-.ft-items p {
-  color: #8f8f8f;
-}
-
 .ft-items i {
   cursor: pointer;
   color: lightsalmon;
@@ -76,7 +73,6 @@ nav{
   color: #ff4c68;
   transform: scale(0.9);
 }
-
 
 /*Testimonials Section*/
 #testimonials, #press {
