@@ -7,43 +7,47 @@ font-family: 'Ubuntu', sans-serif;
 body {
   font-family: "Montserrat", sans-serif;
 }
-#title {
-  background-color: #ff4c68;
-  max-height: 100vh;
+.padding{
+  padding: 7% 15%;
 }
-
+h1, h2 {
+  font-weight: bold;
+}
 .container-fluid {
   padding: 3% 15%;
 }
-
-h1 {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: bold;
+.center-text, .ft-items, #testimonials, #press, #cta, #footer{
+  text-align: center;
 }
-h2 {
-  font-weight: bold;
+.color-section{
+  color: #fff;
+  background-color: #ff4c68;
+}
+/* Title Section */
+#title {
+  max-height: 100vh;
+}
+nav{
+  font-family: "Ubuntu", sans-serif;
 }
 .navbar-brand {
-  font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 .nav-item {
   padding: 0 30px;
-  font-family: "Ubuntu", sans-serif;
   font-size: 1.1rem;
   cursor: pointer;
 }
 .nav-item:hover {
   font-size: large;
 }
-
-.slogan {
+.slogan, #cta h1 {
   margin: 50px 0;
-  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
 .iphone {
   transform: rotate(20deg);
   width: 60%;
@@ -52,17 +56,13 @@ h2 {
 
 /*       Fearture section      */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 .ft-items {
-  text-align: center;
   padding: 30px;
 }
-.ft-items h4 {
-  font-weight: 500;
-}
+
 .ft-items p {
   color: #8f8f8f;
 }
@@ -79,11 +79,8 @@ h2 {
 
 
 /*Testimonials Section*/
-#testimonials {
-  color: #fff;
+#testimonials, #press {
   background-color: #ef8172;
-  text-align: center;
-  padding: 7% 15%;
 }
 
 #testimonials img {
@@ -92,8 +89,6 @@ h2 {
   margin: 20px;
 }
 #press {
-  background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo {
@@ -102,29 +97,15 @@ h2 {
 }
 
 /* Pricing Section*/
-#pricing{
-  padding: 7% 15%;
-}
-
 #cta{
   min-height: 400px;
-  background-color: #ff4c68;
-  text-align: center;
   padding: 5% 15% 3%;
 }
-
-#cta h3{
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bolder;
-  line-height: 1.5;
-}
 .download-btn{
-  margin: 40px 10px;
+  margin: 10px 10px 20px;
 }
 /* footer Section */
 #footer{
-  text-align: center;
   min-height: 150px;
   padding: 5% 15% 3%;
 }
