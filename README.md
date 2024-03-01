@@ -16,12 +16,12 @@ This is a simple frontend project which is built while learning full-stack web d
 
 ## Live Demo link
 
-[click here to see the live web](https://zoetlam.github.io/miniDog/)
+[Here](https://zoetlam.github.io/minidog/)
 
 ## Result of the code
 
-![site picture](images/page_image.png)
-![site picture](images/page_image2.png)
-![site picture](images/page_image3.png)
-![site picture](images/page_image4.png)
-![site picture](images/page_image5.png)
+![site picture](images/Page_image.png)
+![site picture](images/Page_image2.png)
+![site picture](images/Page_image3.png)
+![site picture](images/Page_image4.png)
+![site picture](images/Page_image5.png)
